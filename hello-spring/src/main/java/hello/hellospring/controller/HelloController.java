@@ -9,6 +9,6 @@ public class HelloController {
     @GetMapping("hello")
     public String hello(Model model){
         model.addAttribute("data", "hello!!");
-        return "hello"; // templates 에 있는 hello.html 을 찾음
+        return "hlo"; // templates 에 있는 hello.html 을 찾음
     }
 }
